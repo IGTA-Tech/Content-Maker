@@ -8,6 +8,8 @@
 **/secrets/
 *.key
 *.pem
+google-service-account.json
+*-service-account.json
 
 # Node
 node_modules/
