@@ -8,10 +8,13 @@
 **/secrets/
 *.key
 *.pem
+google-service-account.json
+*-service-account.json
 
 # Node
 node_modules/
 .next/
+temp_auto_push.bat
 out/
 
 # OS files
@@ -20,7 +23,6 @@ Thumbs.db
 
 # IDE
 .idea/
-.vscode/
 *.swp
 
 # Logs
@@ -30,3 +32,5 @@ npm-debug.log*
 # Build outputs
 dist/
 build/
+.gitignore
+temp_interactive_push.bat
